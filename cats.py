@@ -3,7 +3,7 @@ class Cat:
         self.name = name
         self.age = age
 
-smokey = Cat('smokey', 10)
+max = Cat('smokey', 10)
 tom = Cat('tom', 11)
 bella = Cat('bella', 12)
 
@@ -13,4 +13,4 @@ def get_oldest_age(*args):
 
 
 
-print(f"The oldest cat is  {get_oldest_age(smokey.age,tom.age,bella.age)} years old")
+print(f"The oldest cat is  {get_oldest_age(max.age,tom.age,bella.age)} years old")
